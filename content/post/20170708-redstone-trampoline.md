@@ -18,6 +18,8 @@ Here is a contraption that is easy to build but difficult to get the materials f
 
 #### Instructions:
 
+![Restone Trampoline](/images/redstone_trampoline.png)
+
 1: Place the sticky piston facing upwards; then place the slime block on top.
 
 2: Place the redstone source next to the piston or connect the source to the piston with redstone dust.

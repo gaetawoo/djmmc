@@ -16,6 +16,8 @@ I know a small contraption that even an arrow can activate! It requires any amou
 
 #### Instructions:
 
+![Lightup Doorway](/images/lightup_doorway.png)
+
 1: Place the door anywhere you want; then place a redstone lamp on top of the door.
 
 2: Place the Lever or Button on the lamp.
