@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/luxbar.min.css">
+<div class="luxbar luxbar-static">
+    <input type="checkbox" id="luxbar-checkbox" class="luxbar-checkbox">
+    <div class="luxbar-menu luxbar-menu-right luxbar-menu-dark">
+        <ul class="luxbar-navigation">
+            <li class="luxbar-header">
+                <a class="blog-logo" href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}{{.Site.Params.logo}}" alt="DJ Tennessee" /></a>
+                <label class="luxbar-hamburger luxbar-hamburger-doublespin"
+                        for="luxbar-checkbox"> <span></span> </label>
+            </li>
+            {{ range .Site.Menus.main }}
+	        <li class="luxbar-item inactive"><a href="{{.URL}}">{{.Name}}</a></li>
+            {{end}}	
+            </li>
+        </ul>
+    </div>
+</div>
+<!--
+<div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        {{ $currentNode := . }}
+        {{ range .Site.Menus.main }}
+            {{.Pre}}
+            <li class="nav-opened{{if $currentNode.IsMenuCurrent "main" . }} nav-current{{end}}" role="presentation">
+            	<a href="{{.URL}}">{{.Name}}</a>
+            </li>
+        {{end}}
+    </ul>
+    
+    {{ if .Site.Params.RSSLink}}
+    <a class="subscribe-button icon-feed" href="{{.Site.Params.RSSLink }}">Subscribe</a> </div>
+    {{else}}
+    <a class="subscribe-button icon-feed" href="{{if .IsNode}}{{.RSSLink}}{{else}}{{ .Site.BaseURL }}index.xml{{end}}">Subscribe</a>
+    {{end}}
+</div>
+<span class="nav-cover"></span>
+-->

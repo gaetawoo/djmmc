@@ -1,6 +1,6 @@
 BaseUrl= "/"
 LanguageCode= "en-US"
-Title= "My Minecraft Creations"
+Title= "Minecraft Creations"
 paginate = 5
 DisqusShortname = ""
 Copyright = "All rights reserved - 2017"
@@ -12,12 +12,12 @@ theme = "air"
 
 [params]
   description = "by DJTennessee"
-  cover = "images/user.jpg"
+  cover = "/"
   author = "DJTennessee"
   authorlocation = ""
   authorwebsite = ""
   bio= "I love making fun, new creations in Minecraft!"
-  logo = "images/user.png"
+  logo = "images/djhead.png"
   googleAnalyticsUserID = ""
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink = ""
@@ -25,3 +25,13 @@ theme = "air"
   twitterName = ""
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 10
+ 
+[[menu.main]]
+  name = "About Me"
+  url = "/about"
+  weight = 0

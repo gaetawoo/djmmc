@@ -1,7 +1,7 @@
 {{ $baseurl := .Site.BaseURL }}
 <article class="post {{ .Section }}">
     <header class="post-header">
-        <h2 class="post-title"><a href="{{ .RelPermalink }}#content">{{ .Title }}</a></h2>
+        <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     </header>
     <section class="post-excerpt">
       <!--
@@ -12,7 +12,7 @@
       </p>
       -->
       
-        {{ .Summary }} <a class="read-more" href="{{.RelPermalink}}#content"><b>Read More</b> &raquo;</a></p>
+        {{ .Summary }} <a class="read-more" href="{{.RelPermalink}}"><b>Read More</b> &raquo;</a></p>
       
     </section>
     <footer class="post-meta">
@@ -25,13 +25,15 @@
         {{else if .Site.Params.author}}
             {{.Site.Params.author}}
         {{end}}
+        
+        <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+            {{ .Date.Format "Monday, January 2, 2006" }}
+        </time>
+        <br>
         {{if .Params.tags }} 
             {{ range $index, $tag := .Params.tags }}
                 <a href="{{$baseurl}}tags/{{ $tag | urlize }}/">#{{ $tag }}</a>,
             {{ end }}
         {{end}}
-        <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-            {{ .Date.Format "2 Jan 2006" }}
-        </time>
     </footer>
 </article>
