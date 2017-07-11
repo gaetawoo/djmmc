@@ -1,20 +1,21 @@
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/luxbar.min.css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/luxbar.css">
 <div class="luxbar luxbar-static">
     <input type="checkbox" id="luxbar-checkbox" class="luxbar-checkbox">
     <div class="luxbar-menu luxbar-menu-right luxbar-menu-dark">
         <ul class="luxbar-navigation">
             <li class="luxbar-header">
-                <a class="blog-logo" href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}{{.Site.Params.logo}}" alt="DJ Tennessee" /></a>
+                <a class="blog-logo" href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}{{.Site.Params.logo}}" alt="Blog Logo" /></a>
                 <label class="luxbar-hamburger luxbar-hamburger-doublespin"
                         for="luxbar-checkbox"> <span></span> </label>
             </li>
-            {{ range .Site.Menus.main }}
-	        <li class="luxbar-item inactive"><a href="{{.URL}}">{{.Name}}</a></li>
-            {{end}}	
+			{{ range .Site.Menus.main }}
+			    <li class="luxbar-item inactive"><a href="{{.URL}}">{{.Name}}</a></li>
+            {{end}}                
             </li>
         </ul>
     </div>
 </div>
+
 <!--
 <div class="nav">
     <h3 class="nav-title">Menu</h3>
