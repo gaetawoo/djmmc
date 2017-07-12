@@ -32,7 +32,7 @@
         <br>
         {{if .Params.tags }} 
             {{ range $index, $tag := .Params.tags }}
-                <a href="{{$baseurl}}tags/{{ $tag | urlize }}/">#{{ $tag }}</a>,
+                <a href="{{$baseurl}}tags/{{ $tag | urlize }}/">#{{ $tag }}&nbsp;&nbsp;</a>
             {{ end }}
         {{end}}
     </footer>
