@@ -4,6 +4,7 @@ date: 2017-07-08T22:51:57-05:00
 tags:
  - "door"
  - "redstone lamp"
+ - "redstone"
  - "easy"
 image: ""
 comments: false # set to false to hide Disqus
