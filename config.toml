@@ -3,12 +3,12 @@ LanguageCode= "en-US"
 Title= "Minecraft Creations"
 paginate = 5
 DisqusShortname = ""
-Copyright = "All rights reserved - 2017"
+Copyright = "All rights reserved - "
 canonifyurls = true
 metaDataFormat = "yaml"
 theme = "air"
 [permalinks]
-  post = "/blog/:year/:month/:title/"
+  post = "/blog/:year/:month/:day/:title/"
 
 [params]
   description = "by DJTennessee"
