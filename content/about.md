@@ -8,6 +8,7 @@ comments: false # set to false to hide Disqus
 share: false 	# set to false to hide share buttons
 menu: ""	# set to "main" to add to mainmenu
 draft: false
+type: "about"
 ---
 
 ![My crew](/images/2017-07-17-group-picture.png)
