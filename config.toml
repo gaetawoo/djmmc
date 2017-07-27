@@ -17,7 +17,8 @@ theme = "air"
   authorlocation = ""
   authorwebsite = ""
   bio= "I love making fun, new creations in Minecraft!"
-  logo = "https://crafatar.com/avatars/8beb94179a864463a0f34d3e46273a6c.png"
+  logo = "images/djhead.png"
+  #https://crafatar.com/avatars/8beb94179a864463a0f34d3e46273a6c.png
   googleAnalyticsUserID = ""
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink = ""
