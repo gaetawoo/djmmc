@@ -11,7 +11,7 @@ draft: false
 type: "about"
 ---
 
-![My crew](/images/2017-07-17-group-picture.png)
+![My crew](/images/2017-07-17-group-picture.png "My Crew")
 Goxx on the left, me in the middle, and NenaPump on the right
 
 ### Who am I?
@@ -28,5 +28,5 @@ I want to help other people make all the cool creations that I know!
 
 
 <center>
-![DJTennessee](/images/djbody.png)
+![DJTennessee](https://crafatar.com/renders/body/8beb9417-9a86-4463-a0f3-4d3e46273a6c.png "Herobrine Skin")
 </center>
