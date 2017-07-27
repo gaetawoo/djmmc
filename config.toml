@@ -1,4 +1,4 @@
-BaseUrl= "/"
+BaseUrl= "https://djmmc.netlify.com/"
 LanguageCode= "en-US"
 Title= "Minecraft Creations"
 paginate = 5
@@ -33,5 +33,5 @@ theme = "air"
  
 [[menu.main]]
   name = "About Me"
-  url = "/about"
+  url = "/about/"
   weight = 0
