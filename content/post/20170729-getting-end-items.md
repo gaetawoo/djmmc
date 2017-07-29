@@ -8,7 +8,7 @@ image: ""
 comments: false # set to false to hide Disqus
 share: false 	# set to false to hide share buttons
 menu: ""	# set to "main" to add to mainmenu
-draft: true
+draft: false
 ---
 This is a post of how to get to the End and get the items there. First you have to kill endermen for their Ender Pearls, and then craft those ender pearls with blaze powder to get a Eye of Ender, and if you throw it, it will fly in the direction of a stronghold. If you are lucky, you will go through the right tunnel and find the end portal. Place the eyes of ender into the empty slots, and then jump into the portal to travel to the End. There will be an ender dragon that you will have to defeat, and it is really powerful. Good Luck!
 
