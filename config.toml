@@ -1,7 +1,7 @@
 BaseUrl= "https://djmmc.netlify.com/"
 LanguageCode= "en-US"
 Title= "Minecraft Creations"
-paginate = 5
+paginate = 20
 DisqusShortname = ""
 Copyright = "All rights reserved - "
 canonifyurls = true
