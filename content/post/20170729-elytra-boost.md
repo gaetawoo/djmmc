@@ -26,5 +26,5 @@ Now to try it out! Wear your elytra and press the Space key while falling. Face 
 
 _**PS:** If you are fighting the Ender Dragon and you need to chase it, this trick could be very useful!_
 
-_**PPS:** If you want to learn how to get some End items, like the Elytra, check out this post **[Getting End Items]({{< relref "post/20170729-getting-end-items.md" >}})**!_
+_**PPS:** If you want to learn how to get some End items, like the Elytra, check out this post **[Getting End Items]({{< ref "post/20170729-getting-end-items.md" >}})**!_
 
