@@ -26,7 +26,7 @@ This is a post of how to get to the End and get the items there. First you have 
 
 ***End Rod***: It gives off a bright light, brighter than a torch. You will find it in a End City.
 
-***Elytra***: At an End City, ender pearl to an End Ship. Two Shulkers will guard the Elytra. Defeat the shulkers and take the Elytra from the item frame. If you want to know how to do a cool trick with the Elytra, check out this post here **[Elytra Boost]({{< relref "post/20170729-elytra-boost.md" >}})**.
+***Elytra***: At an End City, ender pearl to an End Ship. Two Shulkers will guard the Elytra. Defeat the shulkers and take the Elytra from the item frame. If you want to know how to do a cool trick with the Elytra, check out this post here **[Elytra Boost]({{< ref "post/20170729-elytra-boost.md" >}})**.
 
 ***Ender Dragon Head***: Find it at the front of a End Ship. Mine it with any tool, even with your hand. Don't let it fall into the Void!
 
