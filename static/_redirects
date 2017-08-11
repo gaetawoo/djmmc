@@ -1,0 +1,4 @@
+
+http://djtennessee.com/*        https://www.djtennessee.com/:splat    301!
+http://www.djtennessee.com/*    https://www.djtennessee.com/:splat    301!
+https://djtennessee.com/*       https://www.djtennessee.com/:splat    301!
