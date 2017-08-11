@@ -7,8 +7,13 @@ Copyright = "All rights reserved - "
 canonifyURLs = true
 metaDataFormat = "yaml"
 theme = "air"
+
 [permalinks]
   post = "/blog/:slug/"
+
+[author]
+  name = "DJTennessee"
+  email = ""
 
 [params]
   description = "by DJTennessee"
