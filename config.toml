@@ -8,7 +8,7 @@ canonifyurls = true
 metaDataFormat = "yaml"
 theme = "air"
 [permalinks]
-  post = "/blog/:year/:month/:day/:title/"
+  post = "/blog/:slug/"
 
 [params]
   description = "by DJTennessee"
