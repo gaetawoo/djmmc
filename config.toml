@@ -4,7 +4,7 @@ Title= "Minecraft Creations"
 paginate = 20
 DisqusShortname = ""
 Copyright = "All rights reserved - "
-canonifyurls = true
+canonifyURLs = true
 metaDataFormat = "yaml"
 theme = "air"
 [permalinks]
