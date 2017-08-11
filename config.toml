@@ -5,6 +5,7 @@ paginate = 20
 DisqusShortname = ""
 Copyright = "All rights reserved - "
 canonifyURLs = true
+relativeURLs = false
 metaDataFormat = "yaml"
 theme = "air"
 
