@@ -1,4 +1,4 @@
-BaseUrl= "https://djmmc.netlify.com/"
+BaseUrl= "https://www.djtennessee.com/"
 LanguageCode= "en-US"
 Title= "Minecraft Creations"
 paginate = 20
@@ -26,6 +26,10 @@ theme = "air"
   twitterName = ""
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
+
+[taxonomies]
+  tag = "tags"
+  book = "books"
 
 [[menu.main]]
   name = "Home"
