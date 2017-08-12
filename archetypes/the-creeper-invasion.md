@@ -9,6 +9,3 @@ slug:
 draft: true
 ---
 
-
-
-<!--more-->
