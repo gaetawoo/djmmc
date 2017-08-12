@@ -28,5 +28,5 @@ I want to help other people make all the cool creations that I know!
 
 
 <center>
-![DJTennessee](https://crafatar.com/renders/body/8beb9417-9a86-4463-a0f3-4d3e46273a6c.png "Herobrine Skin")
+![DJTennessee](/images/djbody.png "Herobrine Skin")
 </center>
