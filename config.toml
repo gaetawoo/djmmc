@@ -5,7 +5,6 @@ paginate = 20
 DisqusShortname = ""
 Copyright = "All rights reserved - "
 canonifyURLs = true
-relativeURLs = false
 metaDataFormat = "yaml"
 theme = "air"
 
@@ -40,7 +39,7 @@ theme = "air"
 [[menu.main]]
   name = "Home"
   url = "/"
-  weight = 15
+  weight = 1
  
 [[menu.main]]
   name = "About Me"
@@ -50,9 +49,9 @@ theme = "air"
 [[menu.main]]
   name = "Books"
   url = "/books/"
-  weight = 5
+  weight = 20
 
 [[menu.main]]
   name = "RSS Feed"
   url = "/index.xml"
-  weight = 0
+  weight = 30
