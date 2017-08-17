@@ -6,7 +6,7 @@ chapter: 1
 chapterTitle: Dinner
 author: DJTennessee
 slug: chapter-01
-draft: true
+draft: false
 ---
 Alex was cooking some steak. Steve had gone mining in the Extreme Hills biome looking for emeralds. "Steve's chorus fruit farm has stopped working for the last few days, at least we solved the problem that kept them from growing." Alex said.
 

@@ -6,7 +6,7 @@ author: DJTennessee
 coverimage: 
 summary: "Summary about **The Creeper Invasion**"
 slug: 
-draft: true
+draft: false
 type: thecreeperinvasion
 ---
 {{< book-summary >}}
