@@ -20,7 +20,7 @@ Half an hour later, Steve came back home. Alex had prepared Chicken, Potatoes, M
 
 "Can you pass the potatoes, Alex?" Steve said. "Sure." Alex said.
 
-Steve said "Mmmm, this is really good milk," as Alex served herself some more mushroom stew. Very soon everything was gone, exept for the cake and cookies.
+Steve said "Mmmm, this is really good milk," as Alex served herself some more mushroom stew. Very soon everything was gone, except for the cake and cookies.
 
 "Now for dessert," Alex said. Steve brought out the cake and cookies, and they both started to eat.
 
@@ -56,7 +56,7 @@ A pile of gunpowder sat in the spot where the creeper had exploded.
 
 Apples started sniffing at the ground.
 
-The group followed Apples and her nose as Apples kept smelling that familliar scent.
+The group followed Apples and her nose as Apples kept smelling that familiar scent.
 
 When they reached the destination, Apples meowed at Bones to start digging.
 
