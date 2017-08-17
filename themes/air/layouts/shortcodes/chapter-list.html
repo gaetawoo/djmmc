@@ -1,0 +1,4 @@
+<h4 style="text-align: center">
+{{ range (.Site.GetPage "section" "books" (index .Params 0)).Pages.ByDate }}
+  <a href="{{ .Permalink }}">Ch. {{ .Params.chapter }}</a>
+{{ end }}</h4><br>

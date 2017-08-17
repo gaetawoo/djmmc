@@ -1,0 +1,18 @@
+<!-- <nav class="pagination" role="navigation">
+	{{with .NextInSection}}
+	    <a class="newer-posts" href="{{ .Permalink }}">&larr; Next Chapter</a>
+	{{end}}
+	<span class="page-number">Chapter {{ .Param.chapter }} of {{.TotalPages}}</span>
+	{{with .PrevInSection}}
+	    <a class="older-posts" href="{{ .Permalink }}">Previous Chapter &rarr;</a>
+	{{end}}
+</nav> -->
+<nav class="pagination" role="navigation">
+	{{if .HasPrev}}
+	    <a class="newer-posts" href="{{ .Prev.URL }}">&larr; Newer Posts</a>
+	{{end}}
+	<span class="page-number">Page {{ .PageNumber }} of {{.TotalPages}}</span>
+	{{if .HasNext}}
+	    <a class="older-posts" href="{{ .Next.URL }}">Older Posts &rarr;</a>
+	{{end}}
+</nav>

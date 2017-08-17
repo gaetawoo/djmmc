@@ -1,8 +1,7 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
-tags:
- - ""
+tags: [""]
 image: ""
 comments: false # set to false to hide Disqus
 share: false 	# set to false to hide share buttons

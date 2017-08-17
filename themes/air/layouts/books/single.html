@@ -11,9 +11,9 @@
   <article class="post {{ .Section }}">
 
     <header class="post-header">
-        <h1 class="post-title">{{.Title}}</h1>
+        <h1 class="post-title" style="text-align:center">Chapter {{ .Params.chapter }}<br>{{.Params.chapterTitle}}</h1>
         <section class="post-meta">
-        {{ if eq .Section "post"}}
+        {{ if eq .Section "blog" }}
           <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
             {{ .Date.Format "Monday, January 2, 2006" }}
           </time>
@@ -24,10 +24,23 @@
          {{ end }}
         </section>
     </header>
-  
+
     <section class="post-content">
       {{ .Content }}
     </section>
+    <hr>
+
+  <nav class="pagination" role="navigation">
+    {{ with .PrevInSection }}
+      <a class="newer-posts" href="{{.Permalink}}">Chapter {{ .Params.chapter}}</a>
+    {{ end }}
+    <span class="page-number"><a href="../">{{ index .Params.books 0 }}</a></span>
+    {{ with .NextInSection }}
+      <a class="older-posts" href="{{.Permalink}}">Chapter {{ .Params.chapter }}</a>
+    {{ end }}
+  </nav>
+
+
 
 
   <footer class="post-footer">
@@ -43,7 +56,7 @@
 
     {{ if ne .Params.share false}}
     <section class="share">
-      <h4>Share this!</h4>
+      <h4>Share this chapter!</h4>
       <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text={{ .Title | safeHTML}}&amp;url={{ .Permalink }}"
           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <span class="hidden">Twitter</span>

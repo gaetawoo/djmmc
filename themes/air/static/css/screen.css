@@ -205,7 +205,7 @@ h4, h5, h6 {
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     color: #2E2E2E;
     line-height: 1.15em;
-    margin: 0 0 0.4em 0;
+    /* margin: 0 0 0.4em 0; */
 
     font-family: "Open Sans", sans-serif;
     text-rendering: geometricPrecision;
@@ -283,7 +283,8 @@ dl dd {
 }
 
 li {
-    margin: 0.4em 0;
+    /* margin: 0.4em 0; */
+	margin: 0.25em 0;
 }
 
 li li {
@@ -499,7 +500,7 @@ body.nav-opened .site-wrapper {
     display: table;
     width: 100%;
     height: 100vh;
-    margin-bottom: 5rem;
+    margin-bottom: 30px;
     text-align: center;
     background: #222 no-repeat center center;
     background-size: cover;
@@ -724,7 +725,8 @@ body.nav-opened .nav {
     font-size: 44px;
     text-align: center;
     text-decoration: none;
-    color: rgba(255,255,255,0.7);
+    /* color: rgba(255,255,255,0.7); */
+	color: rgba(255,255,255,1);
     -webkit-animation: bounce 4s 2s infinite;
     animation: bounce 4s 2s infinite;
 }
@@ -761,20 +763,26 @@ body.nav-opened .nav {
 
 /* Appears in the top right corner of your home page */
 .blog-logo {
-    display: block;
-    float: left;
+    /* display: block; */
+    /* float: left; */
+	padding-left: 5px;
+    float: topleft;
     background: none !important;
     border: none !important;
 }
 
 .blog-logo img {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: block;
-    height: 144px;
-    width: 144px;
-    opacity: 0.6;
+    /* -webkit-box-sizing: border-box; */
+    /* -moz-box-sizing: border-box; */
+    /* box-sizing: border-box; */
+    /* display: block; */
+    /* height: 144px; */
+    /* width: 144px; */
+    /* opacity: 0.6; */
+	padding: 0px 0;
+    height: 50px;
+    width: 50px;
+    opacity: 1;
     /*
     border: #bfc8cd 1px solid;
     */
@@ -879,9 +887,13 @@ body.nav-opened .menu-button .word {
 }
 
 .no-cover.main-header {
-    min-height: 160px;
-    max-height: 40vh;
+    /* min-height: 160px; */
+    /* max-height: 40vh; */
+	min-height: 35px;
+    max-height: 0vh;
+    padding-bottom: 30px;
     background: #f5f8fa;
+    margin-bottom: 0;
 }
 
 .no-cover .page-title {
@@ -966,8 +978,9 @@ body:not(.post-template) .post-title {
     margin: 1.75rem 0 0 0;
     font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
+	font-style: italic;
     line-height: 2.2rem;
-    color: #9EABB3;
+    color: #000000;
 }
 
 .author-thumb {
@@ -980,6 +993,7 @@ body:not(.post-template) .post-title {
 
 .post-meta a {
     color: #9EABB3;
+	font-style: normal;				   
     text-decoration: none;
 }
 
@@ -1502,14 +1516,16 @@ body:not(.post-template) .post-title {
     }*/
 
     header.post-header {
-        padding: 20px 20px 0 20px;
+        /* padding: 20px 20px 0 20px; */
+		padding: 20px 0px 0 0px;
     }
     section.post-content {
         padding: 20px;
     }
 
     footer.post-meta {
-        padding: 20px;
+        /* padding: 20px; */
+		padding: 0px;
     }
 
     blockquote {
@@ -1521,9 +1537,10 @@ body:not(.post-template) .post-title {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         height: auto;
-        min-height: 240px;
+        /* min-height: 240px; */
         height: 60vh;
-        padding: 15% 0;
+        /* padding: 15% 0; */
+		padding: 0% 0;
     }
 
     .scroll-down,
@@ -1535,14 +1552,15 @@ body:not(.post-template) .post-title {
     }
 
     h2.post-title {
-        padding:20px 20px 0px 20px;
+        /* padding:20px 20px 0px 20px; */
+		padding:20px 0px 0px 0px;
     }
 
-    .blog-logo img {
+    /* .blog-logo img {
         padding: 4px 0;
         height: 70px;
         width: 70px;
-    }
+    } */
 
     .page-title {
         font-size: 4rem;
@@ -1562,6 +1580,7 @@ body:not(.post-template) .post-title {
 
     body:not(.post-template) .post-title {
         font-size: 3.2rem;
+        padding-top: 20px;
     }
 
     hr {
@@ -1597,6 +1616,26 @@ body:not(.post-template) .post-title {
         font-size: 1.8rem;
     }
 
+	.post-footer {
+        padding: 5rem 0 3rem 0;
+        text-align: center;
+    }
+
+    .post-footer .author {
+        margin: 0 0 2rem 0;
+        padding: 0 0 1.6rem 0;
+        border-bottom: #EBF2F6 1px dashed;
+    }
+
+    .post-footer .share {
+        position: static;
+        width: auto;
+    }
+
+    .post-footer .share a {
+        margin: 1.4rem 0.8rem 0 0.8rem;
+    }
+	
     .author-profile {
         padding-bottom: 4rem;
     }
@@ -1634,6 +1673,9 @@ body:not(.post-template) .post-title {
     article.post.post {
         background-color: #fff;
         margin: 0;
+		width: 92%;
+		padding-left: 3%;
+		padding-right: 5%;
     }
 
 }
@@ -1645,19 +1687,20 @@ body:not(.post-template) .post-title {
 
 @media only screen and (max-width: 500px) {
 
-    article.post.post {
+    /* article.post.post {
         background-color: #fff;
         padding: 20px;
         margin: 0;
-    }
+    } */
 
     .main-header {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
         height: 40vh;
     }
 
     .no-cover.main-header {
         height: 30vh;
+        padding-bottom: 50px;
     }
 
     .archive-template .main-header {
@@ -1671,14 +1714,14 @@ body:not(.post-template) .post-title {
         margin-bottom: 8em;
     }
 
-    .blog-logo {
+    /* .blog-logo {
         padding: 5px;
     }
 
     .blog-logo img {
         height: 70px;
         width: 70px;
-    }
+    } */
 
     .menu-button {
         padding: 0 5px;
@@ -1746,9 +1789,9 @@ body:not(.post-template) .post-title {
         line-height: 1.65em;
     }
 
-    .post-date {
+    /* .post-date {
         display: none;
-    }
+    } */
 
     .post-template .post-header {
         margin-bottom: 2rem;
@@ -1810,9 +1853,15 @@ body:not(.post-template) .post-title {
     h6 {
         font-size: 1.8rem;
     }
+    
+    li {
+    /* margin: 0.4em 0; */
+	margin: 0.3em 0;
+    }
 
     body:not(.post-template) .post-title {
         font-size: 2.5rem;
+        padding-top: 20px;
     }
 
     .post-template .post {
@@ -1971,7 +2020,7 @@ body:not(.post-template) .post-title {
 
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
-   below this point, or it will probably fuck everything up.
+   below this point, or it will probably mess everything up.
    ========================================================================== */
 
 /* ---- reset ---- */
@@ -1991,8 +2040,8 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #2FA7DC;
-  background-image: url("../images/screen.jpg");
+  background-color: rgba(0, 0, 0, 0.00);
+  background-image: url("../images/screen.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -2034,5 +2083,3 @@ canvas {
 .count-particles {
   border-radius: 0 0 3px 3px;
 }
-
-

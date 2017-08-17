@@ -11,7 +11,7 @@
         {{ if eq 1 (len .Data.Pages) }}
             1 Post
         {{ else }}
-            {{ len .Data.Pages }} Posts 
+            {{ len .Data.Pages }} Blog Posts 
         {{ end }} 
         {{ if .Data.Singular }}with {{ .Data.Singular | title }} : <i>{{ .Title }}</i> {{ else }} {{ end }}
     </font></center></h1>

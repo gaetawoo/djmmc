@@ -1,7 +1,7 @@
 BaseUrl= "https://www.djtennessee.com/"
 LanguageCode= "en-US"
 Title= "Minecraft Creations"
-paginate = 20
+paginate = 1000
 DisqusShortname = ""
 Copyright = "All rights reserved - "
 canonifyURLs = true
@@ -9,7 +9,7 @@ metaDataFormat = "yaml"
 theme = "air"
 
 [permalinks]
-  post = "/blog/:slug/"
+  blog = "/blog/:slug/"
 
 [author]
   name = "DJTennessee"
@@ -26,7 +26,7 @@ theme = "air"
   #https://crafatar.com/avatars/8beb94179a864463a0f34d3e46273a6c.png
   googleAnalyticsUserID = ""
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink = ""
+  RSSLink = "https://www.djtennessee.com/index.xml"
   githubName = ""
   twitterName = ""
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
@@ -34,16 +34,16 @@ theme = "air"
 
 [taxonomies]
   tag = "tags"
-  book = "books"
+#  book = "books"
 
 [[menu.main]]
   name = "Home"
   url = "/"
   weight = 1
- 
+
 [[menu.main]]
-  name = "About Me"
-  url = "/about/"
+  name = "Blog"
+  url = "/blog/"
   weight = 10
 
 [[menu.main]]
@@ -52,6 +52,11 @@ theme = "air"
   weight = 20
 
 [[menu.main]]
+  name = "About Me"
+  url = "/about/"
+  weight = 30
+
+[[menu.main]]
   name = "RSS Feed"
   url = "/index.xml"
-  weight = 30
+  weight = 40

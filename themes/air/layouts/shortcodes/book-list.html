@@ -1,0 +1,11 @@
+<div style="text-align:center">
+  {{ $sections := ($.Site.GetPage "section" "books").Sections }}
+  {{ range $sections }}
+      <h3><a href="{{.Permalink}}">{{ .Title }}</a></h3>
+      {{ .Params.summary | markdownify }}
+      {{ if .Params.coverimage }}<img src="{{ .Params.coverimage }}" alt="{{ .Title }} Book Cover">{{ end }}
+      <h4>{{ range .Pages.ByDate }}
+          <a href="{{ .Permalink }}">Ch. {{ .Params.chapter }}</a>
+      {{ end }}</h4><br>
+  {{ end }}
+</div>
