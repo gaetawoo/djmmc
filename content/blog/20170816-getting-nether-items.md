@@ -22,3 +22,7 @@ There are many kinds of items, but the Nether holds many rare ones. Here is a li
 ***Ghast Tear***: Get this from killing a ghast. try to get the ghast to go over land so the tear doesen't fall into lava. Use the ghast tear to brew potions of regeneraton, and craft ender crystals.
 
 ***Nether Wart***: Find this at the stairs in a nether fortress. It only grows on soul sand, and water and sunlight aren't needed for it to grow. Bone meal won't work on it, but many potions cannot be brewed without nether wart.
+
+***Wither Skull***: Get this rare item from killing a wither skeleton. Use three of these to summon the Wither.
+
+***Soul Sand***: Four of this will summon the Wither, and use soul sand to grow nether wart. It can also make silverfish suffocate,

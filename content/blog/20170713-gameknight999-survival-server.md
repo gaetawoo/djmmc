@@ -12,7 +12,7 @@ share: true 	# set to false to hide share buttons
 menu: ""	# set to "main" to add to mainmenu
 draft: false
 ---
-There is a fun online server called the _Gameknight999 Network_, and it has a survival server, which most people on the server play. It's really fun, and it also has a system called Grief Protection, which allows you to create land claims that protect your builds. If someone does however manage to ruin your builds, use `/report (player) (reason)` and maybe a Staff  Member will come to the rescue. Also, they will add a new survival server on July 15, 2017.
+There is a fun online server called the _Gameknight999 Network_, and it has a survival server, which most people on the server play. It's really fun, and it also has a system called Grief Protection, which allows you to create land claims that protect your builds. If someone does however manage to ruin your builds, use `/report (player) (reason)` and maybe a Staff Member or Admin will come to the rescue. You can't go to old survival, so do new Survival.
 
 <!--more-->
 
