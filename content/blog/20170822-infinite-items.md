@@ -4,13 +4,13 @@ date: 2017-08-22T12:40:40-05:00
 tags: ["commands","easy"]
 slug:
 share: true
-draft: true
+draft: false
 ---
-You will need a repeat command block to do this. Type in the command here: `/replaceitem entity @p slot.hotbar.0 cookie 30`. Then put a lever near the command block and turn it on. No matter how many times you try to get the cookies in your inventory, you will always get more without your inventory completely filling up.
+You will need a repeat command block to do this. Type in the following command: `/replaceitem entity @p slot.hotbar.0 cookie 30`. Then put a lever near the command block and turn it on. No matter how many times you try to get the cookies out of your inventory, you will always get more without your inventory completely filling up.
 
 <!--more-->
 
-#### Syntaxes:
+#### Commands:
 
 Syntax: `/replaceitem entity <selector> <slot> <item> [amount] [data] [dataTag]` OR `/replaceitem block <x> <y> <z> <slot> <item> [amount] [data] [dataTag]`.
 
@@ -28,4 +28,4 @@ Syntax: `/replaceitem entity <selector> <slot> <item> [amount] [data] [dataTag]`
 
 7. `/replaceitem entity @a slot.armor.head leather_helmet 1 0 {display:{Name:"Rainhat"}}`
 
-***WARNING!*** This command will *replace* any items in your inventory, depending on the slot. Be careful!
+***WARNING!*** The `/replaceitem` command will *replace* any items in your inventory, depending on the slot number you type. Be careful!
