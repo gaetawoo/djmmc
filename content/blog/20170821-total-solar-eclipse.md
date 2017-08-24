@@ -4,9 +4,9 @@ date: 2017-08-21T20:29:35-05:00
 tags: ["non-minecraft","special"]
 slug:
 share: true
-draft: true
+draft: false
 ---
-I know this isn't minecraft, but today, on August 21, 2017, i saw a total solar eclipse with my very own eyes! It was also my very first eclipse! And i did not have to go far! It happened at home! Man was i lucky! ...and i also heard people outside.
+I know this isn't minecraft, but today, on August 21, 2017, I saw a total solar eclipse with my very own eyes! It was also my very first eclipse! And I did not have to go far! It happened at home! Man was I lucky! ...and I also heard people outside.
 
 <!--more-->
 
