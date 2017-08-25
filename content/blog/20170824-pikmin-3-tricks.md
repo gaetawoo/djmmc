@@ -12,7 +12,7 @@ Here are some tricks in *Pikmin 3* that might make it easier to beat the game.
 
 1. This trick will help you get the pear in Twillight River without bomb rocks. Go to the pear with ten winged pikmin, then charge or throw them at the pear. If it doesn't work, try throwing from a little farther. If ten or more winged pikmin manage to carry the pear, they won't be able to carry it over. Then whistle them, and the next day, the glitch happens. The pear is out of the wall!
 
-2. This trick will help you get lots of spicy spray. Go somewhere that has a tall flower with ultra-spicy berries growing from it (you probally know what flower i mean) near spawn, like Tropical Wilds. Throw a teammate at the flower, then throw some pikmin. They will pick up the berries, take them to your ship, and come back. Every twenty-four seconds, the berries grow back. The teammate you threw will call the pikmin back when the bell rings and you see big words saying "Hurry Up!".  
+2. This trick will help you get lots of spicy spray. Go somewhere that has a tall flower with ultra-spicy berries growing from it (you probally know what flower i mean) near spawn, like Tropical Wilds. Throw a teammate at the flower, then throw some pikmin. They will pick up the berries, take them to your ship, and come back. Every twenty-four seconds, the berries grow back. Switch to the teammate you threw and call the pikmin back when the bell rings and you see big words saying "Hurry Up!".  
 
 3. Leave some fruit uncollected in the Garden of Hope, so you have all that fruit to collect when Louie steals all your juice after you beat the scornet maestro and brought Louie back to the ship.
 
