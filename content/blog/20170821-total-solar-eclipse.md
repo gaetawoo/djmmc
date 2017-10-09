@@ -13,9 +13,9 @@ I know this isn't minecraft, but today, on August 21, 2017, I saw a total solar 
 #### What I saw:
 
 
-1. It looked like the moon as on white fire.
+1. It looked like the moon was on white fire.
 
-2. The sun looked like a orange cookie that someone had taken a bite out of when I looked through my glasses.
+2. The sun looked like a orange cookie that someone had taken a bite out of when I looked through my eclipse glasses.
 
 3. It got cooler.
 
